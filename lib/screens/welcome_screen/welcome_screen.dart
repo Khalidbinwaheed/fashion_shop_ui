@@ -102,9 +102,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 },
                 itemCount: 3,
                 itemBuilder: (ctx, i) {
-                  return Column(
+                  return const Column(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children: [
                       Text(
                         'Find your best outfit\nand look great',
                         textAlign: TextAlign.center,

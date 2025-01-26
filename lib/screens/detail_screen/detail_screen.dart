@@ -172,9 +172,9 @@ class DetailScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10),
                 color: AppColors.darkGrey,
               ),
-              child: FittedBox(
+              child: const FittedBox(
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.check,
                       color: Colors.white,
