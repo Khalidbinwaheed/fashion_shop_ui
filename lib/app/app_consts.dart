@@ -1,4 +1,4 @@
-import 'package:flutter/painting.dart';
+import "package:flutter/painting.dart";
 
 class AppColors {
   static const Color darkGrey = Color.fromRGBO(64, 64, 64, 1);
